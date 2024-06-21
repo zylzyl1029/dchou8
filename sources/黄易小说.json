@@ -1,7 +1,7 @@
 {
     "name": "黄易小说",
     "url": "www.xhytd.com",
-    "version": 100,
+    "version": 101,
     "search": {
         "url": "http://www.xhytd.com/search.html?name=${key}",
       "charset": "utf-8",
@@ -14,6 +14,7 @@
     "detail": {
         "name": "h1",
         "summary": "#intro",
+        "cover": "#fmimg > img",
         "catalog": ""
     },
     "catalog": {
@@ -22,6 +23,9 @@
         "chapter": "a"
     },
     "chapter": {
-        "content": "#content"
+        "content": "#content",
+        "purify": [
+            "天才一秒记住.*无广告！"
+        ]
     }
 }
