@@ -1,1 +1,23 @@
-
+[
+  "name": "黄易小说",
+  "url": "www.xhytd.com",
+  "version":"100",
+  "search": {
+    "url": "http://www.xhytd.com/search.html?name=${key}",
+    "charset": "utf-8",
+    "list": "div.novelslist2 > ul > li:nth-of-type(n+2)",
+    "name": "span.s2",
+    "author": "span.s4"
+  },
+  "detail": {
+    "name": "h1"
+  },
+  "catalog": {
+    "list": "dl > dd:gt(12)",
+    "name": "a",
+    "chapter": "a"
+  },
+  "chapter": {
+    "content": "div#content"
+  }
+]
