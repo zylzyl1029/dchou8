@@ -9,10 +9,11 @@
         "name": "span.s2",
         "author": "span.s4",
         "cover": "",
-        "detail": "td:nth-child(1) > p > a"
+        "detail": "span.s2 > a"
     },
     "detail": {
         "name": "h1",
+        "summary": "#intro",
         "catalog": ""
     },
     "catalog": {
