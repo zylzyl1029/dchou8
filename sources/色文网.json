@@ -1,0 +1,27 @@
+{
+    "name": "色文网",
+    "url": "sese.wen619.xyz",
+    "version": "100",
+    "search": {
+        "url": "http://sese.wen619.xyz/modules/article/search.php@post->searchkey=${key}",
+        "charset": "gbk",
+        "list": "ul.txt-list > li:gt(0)",
+        "name": ".s2",
+        "author": ".s4",
+        "detail": ".s2 > a"
+    },
+    "detail": {
+        "name": ".top > h1",
+        "summary": ".desc",
+        "cover": "",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "#section-list > li",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#content"
+    }
+}
