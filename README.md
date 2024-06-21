@@ -1,1 +1,1 @@
-https://cdn.jsdelivr.net/gh/zylzyl1029/sources@latest/repository.json
+https://cdn.jsdelivr.net/gh/zylzyl1029/sources@1.1/repository.json
