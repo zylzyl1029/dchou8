@@ -3,7 +3,7 @@
     "url": "www.aabook.cyou",
     "version": "100",
     "search": {
-        "url": "http://www.aabook.cyou/search.html?page=${page}&searchword=&{key}&ob=0",
+        "url": "http://www.aabook.cyou/search.html?&searchword=&{key}",
         "charset": "utf-8",
         "list": ".sousuojieguo > ul > li",
         "name": "a:nth-of-type(1)",
