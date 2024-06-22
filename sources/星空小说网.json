@@ -1,7 +1,8 @@
 {
     "name": "星空小说网",
     "url": "www.aixswx.la",
-    "version": "100",
+    "remarks": "目录是乱序",
+    "version": "101",
     "search": {
         "url": "http://www.aixswx.la/search.php@post->key=${key}",
         "charset": "utf-8",

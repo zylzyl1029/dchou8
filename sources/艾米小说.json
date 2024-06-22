@@ -1,0 +1,29 @@
+{
+    "name": "艾米小说",
+    "url": "www.amxs.cc",
+    "version": "100",
+    "search": {
+        "url": "http://www.amxs.cc/search/@post->searchkey=${key}",
+        "charset": "utf-8",
+        "list": ".read_book > .bookbox",
+        "name": "h4",
+        "author": ".author@replace->作者：->",
+        "cover": ".bookimg > a > img",
+        "detail": "h4 > i > a"
+    },
+    "detail": {
+        "name": "span.title",
+        "author": ".author@replace->作者：->",
+        "cover": ".synopsisArea_detail > img",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "div:gt(5) > .directoryArea > p",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#chaptercontent > p",
+        "page": "#pt_next@match->下一页"
+    }
+}
