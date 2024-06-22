@@ -1,9 +1,9 @@
 {
     "name": "若初文学",
     "url": "www.ruochuwx.com",
-    "version": "100",
+    "version": "101",
     "search": {
-        "url": "https://www.ruochuwx.com/search.html@post->searchkey=${key}",
+        "url": "https://www.ruochuwx.com/search.html@post->searchkey=${key}@header->cookie:uc=wKgDMWDnwnMTX2rpJw0iAg==; bookChapter=true",
         "charset": "utf-8",
         "list": "#sitembox > dl",
         "name": "dd > h3",

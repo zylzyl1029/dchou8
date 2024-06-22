@@ -1,0 +1,28 @@
+{
+    "name": "棉花糖小说网",
+    "url": "www.mhtxss.com",
+    "version": "version",
+    "search": {
+        "url": "http://www.mhtxss.com/plus/search.php?kwtype=0&searchtype=&q=${key}",
+        "charset": "gb2312",
+        "list": "#main > ul > li",
+        "name": "h2 > a",
+        "author": ".state > a:nth-of-type(1)",
+        "detail": "h2 > a",
+        "cover": ".pic > a > img"
+    },
+    "detail": {
+        "name": ".title > h1",
+        "cover": "",
+        "summary": ".words > p@replace->简介：->",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": ".list_box > ul > li",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": ".box_box"
+    }
+}
