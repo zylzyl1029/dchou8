@@ -1,0 +1,31 @@
+{
+    "name": "污书屋",
+    "url": "www.miaoquan2016.com",
+    "version": "100",
+    "search": {
+        "url": "http://www.miaoquan2016.com/search/@post->searchkey=${key}",
+        "charset": "utf-8",
+        "list": ".branch_menu > .article",
+        "name": ".content > h6",
+        "author": ".content > .author",
+        "cover": ".pic > a > img",
+        "detail": ".content > h6 > a"
+    },
+    "detail": {
+        "name": ".cataloginfo > h3",
+        "summary": ".intro > p",
+        "cover": ".pic > img",
+        "catalog": "",
+        "page": ".gochapter > a"
+    },
+    "catalog": {
+        "list": ".chapters > li",
+        "name": "a",
+        "chapter": "a",
+        "page": ".index-container > a:nth-of-type(2)"
+    },
+    "chapter": {
+        "content": "#novelcontent > .articlecontent",
+        "page": "#novelcontent > ul > li > p > #next_url"
+    }
+}
