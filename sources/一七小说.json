@@ -1,0 +1,34 @@
+{
+    "name": "一七小说",
+    "url": "www.17xs.com",
+    "version": "100",
+    "search": {
+        "url": "http://www.17xs.com/ar.php?keyWord=${key}",
+        "charset": "utf-8",
+        "list": ".txt-list > li:gt(0)",
+        "name": ".s2",
+        "author": ".s4",
+        "detail": ".s2 > a"
+    },
+    "detail": {
+        "name": ".top > h1",
+        "summary": ".desc",
+        "author": ".fix > p:nth-of-type(1)@replace->作者：->",
+        "cover": ".imgbox > img",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": ".layout > div:nth-of-type(2) > ul > li",
+        "name": "a",
+        "chapter": "a",
+        "page": ".right > a:matches(下一页)"
+    },
+    "chapter": {
+        "content": "#content",
+        "page": ".reader-main > div:nth-of-type(1) > a:matches(下一页)",
+        "purify": [
+            "([第,序].*章.*\(第.*页\))",
+            "（本章未完，请点击下一页继续阅读）",
+        ]
+    }
+}
