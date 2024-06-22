@@ -1,7 +1,7 @@
 {
     "name": "艾米小说",
     "url": "www.amxs.cc",
-    "version": "102",
+    "version": "103",
     "search": {
         "url": "http://www.amxs.cc/search/@post->searchkey=${key}",
         "charset": "utf-8",
