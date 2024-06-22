@@ -1,0 +1,33 @@
+{
+    "name": "若初文学",
+    "url": "www.ruochuwx.com",
+    "version": "100",
+    "search": {
+        "url": "https://www.ruochuwx.com/search.html@post->searchkey=${key}",
+        "charset": "utf-8",
+        "list": "#sitembox > dl",
+        "name": "dd > h3",
+        "author": ".book_other > span:nth-child(1)",
+        "cover": "dt > a > img",
+        "detail": "dd > h3 > a"
+    },
+    "detail": {
+        "name": "#info > h1",
+        "cover": "#fmimg > img",
+        "summary": "#intro  > p:nth-child(1)",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "#list > dl > dd:gt(12)",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#content > p",
+        "page": "#A3:matches(下一页)",
+        "purify": [
+            "小主，这个章节后面.*后面更精彩！",
+            "喜欢.*请大家收藏.*全网最快。"
+        ]
+    }
+}
