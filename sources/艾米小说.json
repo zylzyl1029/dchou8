@@ -1,7 +1,7 @@
 {
     "name": "艾米小说",
     "url": "www.amxs.cc",
-    "version": "100",
+    "version": "101",
     "search": {
         "url": "http://www.amxs.cc/search/@post->searchkey=${key}",
         "charset": "utf-8",
@@ -21,7 +21,7 @@
         "list": "div:gt(5) > .directoryArea > p",
         "name": "a",
         "chapter": "a",
-        "page": ".index-container > a:nth-of-type(2)"
+        "page": ".index-container > a:nth-child(3)"
     },
     "chapter": {
         "content": "#chaptercontent > p",
