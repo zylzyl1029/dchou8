@@ -1,7 +1,7 @@
 {
     "name": "污书屋",
     "url": "www.miaoquan2016.com",
-    "version": "102",
+    "version": "103",
     "search": {
         "url": "http://www.miaoquan2016.com/search/@post->searchkey=${key}",
         "charset": "utf-8",
