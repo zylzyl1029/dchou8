@@ -1,7 +1,8 @@
 {
     "name": "艾米小说",
     "url": "www.amxs.cc",
-    "version": "103",
+    "version": "104",
+    "remarks": "搜索间隔120秒",
     "search": {
         "url": "http://www.amxs.cc/search/@post->searchkey=${key}",
         "charset": "utf-8",
