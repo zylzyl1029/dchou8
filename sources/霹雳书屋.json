@@ -1,0 +1,27 @@
+{
+    "name": "霹雳书屋",
+    "url": "www.pilisf.com",
+    "version": "100",
+    "search":{
+        "url": "https://www.pilisf.com/s.php@post->s=${key}&type=articlename",
+        "charset": "gbk",
+        "list": ".searchresult > .sone",
+        "name": ".sone > a",
+        "author": ".author > a",
+        "detail": ".sone > a"
+    },
+    "detail": {
+        "name": ".cataloginfo > h3",
+        "summary": "#intro > p",
+        "cover": ".pic > img",
+        "catalog": ".gochapter > a"
+    },
+    "catalog": {
+        "list": "ul.chapters > li",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#novelcontent"
+    }
+}
