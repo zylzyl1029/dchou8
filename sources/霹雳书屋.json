@@ -1,7 +1,7 @@
 {
     "name": "霹雳书屋",
     "url": "www.pilisf.com",
-    "version": "100",
+    "version": "101",
     "search":{
         "url": "https://www.pilisf.com/s.php@post->s=${key}&type=articlename",
         "charset": "gbk",
@@ -22,6 +22,6 @@
         "chapter": "a"
     },
     "chapter": {
-        "content": "#novelcontent"
+        "content": "#novelcontent > p"
     }
 }
