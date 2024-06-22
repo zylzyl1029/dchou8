@@ -20,10 +20,11 @@
     "catalog": {
         "list": "div:gt(5) > .directoryArea > p",
         "name": "a",
-        "chapter": "a"
+        "chapter": "a",
+        "page": ".index-container > a:nth-of-type(2)"
     },
     "chapter": {
         "content": "#chaptercontent > p",
-        "page": "#pt_next@match->下一页"
+        "page": "#read > p:nth-of-type(2) > #pt_next"
     }
 }
