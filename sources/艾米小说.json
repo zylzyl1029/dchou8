@@ -24,6 +24,6 @@
     },
     "chapter": {
         "content": "#chaptercontent > p",
-        "page": "#read > p:nth-of-type(2) > #pt_next@equal->下一页"
+        "page": "#read > p:nth-of-type(2) > a:nth-of-type(3):matches(下一页)"
     }
 }
