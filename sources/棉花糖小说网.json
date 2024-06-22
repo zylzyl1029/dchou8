@@ -1,7 +1,7 @@
 {
     "name": "棉花糖小说网",
     "url": "www.mhtxss.com",
-    "version": "version",
+    "version": "100",
     "search": {
         "url": "http://www.mhtxss.com/plus/search.php?kwtype=0&searchtype=&q=${key}",
         "charset": "gb2312",
