@@ -1,0 +1,31 @@
+{
+    "name": "衍墨轩",
+    "url": "www.ymxw.net",
+    "version": "100",
+    "search": {
+        "url": "http://www.ymxw.net/search.htm?keyword=${key}",
+        "charset": "utf-8",
+        "list": ".lastest > ul > li:gt(1)",
+        "name": ".n2",
+        "author": ".a2",
+        "cover": "",
+        "detail": ".n2 > a"
+    },
+    "detail": {
+        "name": "h1",
+        "summary": ".desc",
+        "cover": ".cover > img",
+        "catalog": ".info > footer > a"
+    },
+    "catalog": {
+        "list": ".mulu > .col3:gt(9)",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#content",
+        "purify": [
+            "本站新域名：ymxw.net"
+        ]
+    }
+}

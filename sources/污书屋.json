@@ -1,7 +1,7 @@
 {
     "name": "污书屋",
     "url": "www.miaoquan2016.com",
-    "version": "100",
+    "version": "101",
     "search": {
         "url": "http://www.miaoquan2016.com/search/@post->searchkey=${key}",
         "charset": "utf-8",
@@ -15,8 +15,7 @@
         "name": ".cataloginfo > h3",
         "summary": ".intro > p",
         "cover": ".pic > img",
-        "catalog": "",
-        "page": ".gochapter > a"
+        "catalog": ".gochapter > a"
     },
     "catalog": {
         "list": ".chapters > li",
