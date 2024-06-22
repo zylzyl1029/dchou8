@@ -20,7 +20,8 @@
     "catalog": {
         "list": "div:gt(5) > .directoryArea > p",
         "name": "a",
-        "chapter": "a"
+        "chapter": "a",
+        "page": ".index-container > a:matches(下一页)"
     },
     "chapter": {
         "content": "#chaptercontent > p",
