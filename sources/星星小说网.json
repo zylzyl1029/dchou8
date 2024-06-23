@@ -1,0 +1,31 @@
+{
+    "name": "星星小说网",
+    "url": "m.zbcxw.cn",
+    "version": "100",
+    "search": {
+        "url": "http://m.zbcxw.cn/s.php?s=${key}",
+        "charset": "utf-8",
+        "list": ".clearfix > li",
+        "name": "a",
+        "author": ".info > span@replace->作者：->",
+        "cover": "img",
+        "detail": "a"
+    },
+    "detail": {
+        "name": "h2",
+        "cover": "dt > img",
+        "catalog": "a:matches(所有章节)"
+    },
+    "catalog": {
+        "list": "#chapter",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#txt",
+        "purify": [
+            "天才一秒记住.*",
+            "http.*无广告！"
+        ]
+    }
+}
