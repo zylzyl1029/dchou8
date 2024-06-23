@@ -1,0 +1,25 @@
+{
+    "name": "www.boquku.com",
+    "url": "www.boquku.com",
+    "version": "100",
+    "search": {
+        "url": "http://www.boquku.com/search.htm?keyword=${key}",
+        "charset": "gbk",
+        "list": "#novel-list > ul > li:gt(0)",
+        "name": ".col-xs-3",
+        "author": "div:nth-of-type(4)",
+        "detail": ".col-xs-3 > a"
+    },
+    "detail": {
+        "summary": "#shot@replace->[展开]->",
+        "catalog": "ul > li > a:matches(查看全部章节)"
+    },
+    "catalog": {
+        "list": "#chapters-list > li",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#txtContent"
+    }
+}
