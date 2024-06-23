@@ -1,7 +1,7 @@
 {
     "name": "一七小说",
     "url": "www.17xs.com",
-    "version": "100",
+    "version": "101",
     "search": {
         "url": "http://www.17xs.com/ar.php?keyWord=${key}",
         "charset": "utf-8",
@@ -27,7 +27,7 @@
         "content": "#content",
         "page": ".reader-main > div:nth-of-type(1) > a:matches(下一页)",
         "purify": [
-            "[第,序].*章.*第.*页\)",
+            "[第,序].*章.*第.*页\\)",
             "（本章未完，请点击下一页继续阅读）"
         ]
     }
