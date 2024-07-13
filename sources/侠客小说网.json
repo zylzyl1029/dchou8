@@ -1,0 +1,28 @@
+{
+    "name": "侠客小说网",
+    "url": "www.xiakexsw.com",
+    "version": "100",
+    "search": {
+        "url": "https://www.xiakexsw.com/search/?keyword=${key}&t=0",
+        "charset": "utf-8",
+        "list": ".subject-item",
+        "name": ".info > h2",
+        "author": ".info > .pub > a:nth-of-type(1)",
+        "cover": ".pic > a > img",
+        "detail": ".info > h2 > a"
+    },
+    "detail": {
+        "name": "h1",
+        "summary": ".intro > p:nth-of-type(1)",
+        "cover": "#mainpic > a > img",
+        "catalog": ".online-read > a"
+    },
+    "catalog": {
+        "list": "#chapter",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "div#txt > dd > p"
+    }
+}
