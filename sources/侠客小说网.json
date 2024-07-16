@@ -1,9 +1,9 @@
 {
     "name": "侠客小说网",
     "url": "www.xiakexsw.com",
-    "version": "101",
+    "version": "102",
     "search": {
-        "url": "https://www.xiakexsw.com/search/?keyword=${key}&t=0@header->Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8",
+        "url": "https://www.xiakexsw.com/search/?keyword=${key}&t=1@header->Accept:'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8'",
         "charset": "utf-8",
         "list": ".subject-item",
         "name": ".info > h2",
