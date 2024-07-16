@@ -1,0 +1,28 @@
+{
+    "name": "PO18全本",
+    "url": "www.isex.work",
+    "version": "100",
+    "search": {
+        "url": "https://www.isex.work/modules/article/search.php@post->searchkey=${key}",
+        "charset": "utf-8",
+        "list": "#nr",
+        "name": "h3 > a",
+        "author": "",
+        "cover": "dt > a > img",
+        "detail": "h3 > a"
+    },
+    "detail": {
+        "name": ".d_title > h1",
+        "author": ".p_author@replace->作者->",
+        "cover": "#bookimg > img",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "#chapterList > li",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#TextContent"
+    }
+}

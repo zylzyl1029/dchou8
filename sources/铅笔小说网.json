@@ -1,0 +1,28 @@
+{
+    "name": "铅笔小说网",
+    "url": "www.23qb.com",
+    "version": "100",
+    "search": {
+        "url": "https://www.23qb.com/search.html?searchkey=${key}",
+        "charset": "utf-8",
+        "list": ".module-search-item",
+        "name": "h3",
+        "author": "",
+        "cover": ".module-item-pic > img",
+        "detail": "h3 > a"
+    },
+    "detail": {
+        "name": "h1",
+        "author": ".scroll-box > div > a:nth-of-type(1)@replace->作者：->",
+        "cover": ".novel-cover > div > div > img",
+        "catalog": "a:matches(完整目录)"
+    },
+    "catalog": {
+        "list": ".module-row-info",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": ".article-content > p"
+    }
+}

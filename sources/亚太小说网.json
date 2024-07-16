@@ -1,0 +1,33 @@
+{
+    "name": "亚太小说网",
+    "url": "www.ytxs.cc",
+    "version": "100",
+    "remarks": "搜索间隔30秒",
+    "search": {
+        "url": "https://www.ytxs.cc/modules/article/search.php?searchkey=${key}",
+        "charset": "gbk",
+        "list": "tbody > tr:gt(1)",
+        "name": "td:nth-of-type(2)",
+        "author": "td:nth-of-type(4)",
+        "detail": "td:nth-of-type(2) > a"
+    },
+    "detail": {
+        "name": "",
+        "author": "",
+        "summary": "#bookIntro",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "dd",
+        "name": "a",
+        "chapter": "a",
+        "page": "a:matches(下一页)"
+    },
+    "chapter": {
+        "content": "#htmlContent",
+        "page": "#linkNext:matches(下一页)",
+        "purify": [
+            "亚太小说.*免费阅读！"
+        ]
+    }
+}
