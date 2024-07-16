@@ -1,7 +1,7 @@
 {
     "name": "相思阁",
     "url": "www.xsbook.top",
-    "version": "100",
+    "version": "101",
     "search": {
         "url": "http://www.xsbook.top/index.php/book/search?key=${key}",
         "charset": "utf-8",
