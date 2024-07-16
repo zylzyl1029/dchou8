@@ -1,0 +1,27 @@
+{
+    "name": "无极小说",
+    "url": "www.wj27.net",
+    "version": "100",
+    "search": {
+        "url": "https://www.wj27.net/so2c.html?searchkey=${key}",
+        "charset": "utf-8",
+        "list": ".item",
+        "name": "dt > a",
+        "detail": "dt > a",
+        "author": ".btm > a"
+    },
+    "detail": {
+        "name": "h1",
+        "summary": "#intro",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "#list > dl > a:gt(12)",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#booktxt > p",
+        "page": ".bottem2 > #next_url:matches(下一页)"
+    }
+}
