@@ -1,0 +1,28 @@
+{
+    "name": "相思阁",
+    "url": "www.xsbook.top",
+    "version": "100",
+    "search": {
+        "url": "http://www.xsbook.top/index.php/book/search?key=${key}",
+        "charset": "utf-9",
+        "list": ".tjshu > li",
+        "name": ".info > .name",
+        "author": ".info > .inf2 > span:nth-of-type(1)",
+        "cover": ".photo > img",
+        "detail": "a"
+    },
+    "detail": {
+        "name": "h1",
+        "summary": ".decs",
+        "cover": ".photo > img",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "#chapterlsit > li",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": ".tjc-cot > p"
+    }
+}
