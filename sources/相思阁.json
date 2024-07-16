@@ -4,7 +4,7 @@
     "version": "100",
     "search": {
         "url": "http://www.xsbook.top/index.php/book/search?key=${key}",
-        "charset": "utf-9",
+        "charset": "utf-8",
         "list": ".tjshu > li",
         "name": ".info > .name",
         "author": ".info > .inf2 > span:nth-of-type(1)",
